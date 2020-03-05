@@ -1,0 +1,13 @@
+1.本地安装好adb调试工具（需配置环境变量）。
+
+2.windows环境打开本地cmd窗口，Mac或者Linux环境开启一个新的终端。
+
+3.在命令行输入上面的adb connect地址。
+
+4.在页面弹出的鉴权窗口中点击"确定"按钮。
+
+5.本地命令行中输入adb devices查看设备列表。
+
+6.开发工具中查看设备列表并开始debug调试（支持Eclipse和AndroidStudio远程调试）。
+
+AndroidStudio编译异常后，如果出现Assert不存在的情况是 junit4.12异常载入 先修改版本 然后重新改回去
